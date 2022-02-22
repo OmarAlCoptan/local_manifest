@@ -14,8 +14,9 @@
 <project path="kernel/xiaomi/lavender" name="kernel_xiaomi_lavender" remote="OmarAlCoptan" revision="qti-oldcam-eas" />
 
 
-<project path="packages/resources/devicesettings" na
+
 
 <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="ProtonAOSP-lavender" revision="sc" />
 
 </manifest>
+
