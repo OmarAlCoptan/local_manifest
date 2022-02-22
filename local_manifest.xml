@@ -13,9 +13,9 @@
 <project path="vendor/xiaomi/sdm660-common" name="vendor_xiaomi_sdm660-common" remote="OmarAlCoptan" revision="12" />
 <project path="kernel/xiaomi/lavender" name="kernel_xiaomi_lavender" remote="OmarAlCoptan" revision="qti-oldcam-eas" />
 
-<remove-project name="packages/resources/devicesettings" />
-<project path="packages/resources/devicesettings" name="android_packages_resources_devicesettings" remote="ArrowOS" revision="arrow-12.0" />
-<project path="device/xiaomi/extras" name="android_device_xiaomi_extras" remote="ProtonAOSP-lavender" revision="sc" />
+
+<project path="packages/resources/devicesettings" na
+
 <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="ProtonAOSP-lavender" revision="sc" />
 
 </manifest>
