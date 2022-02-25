@@ -3,6 +3,7 @@
   <remote name="OmarAlCoptan"
           fetch="https://github.com/OmarAlCoptan"/>
   
+
 <!--Trees-->
   <project path="device/xiaomi/lavender"
            name="device_xiaomi_lavender"
@@ -20,7 +21,7 @@
            revision="12" />
            
   <project path="vendor/xiaomi/sdm660-common"
-           name="device_xiaomi_lavender"
+           name="vendor_xiaomi_sdm660-common"
            remote="OmarAlCoptan"
            revision="12" />
            
