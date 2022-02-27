@@ -49,6 +49,6 @@
   <project path="prebuilts/clang/host/linux-x86/clang-proton"
            name="proton-clang"
            remote="OmarAlCoptan"
-           revision="master" />
-           
+           revision="master" clone-depth="1" />
+  
 </manifest>
