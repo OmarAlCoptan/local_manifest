@@ -46,9 +46,4 @@
            remote="OmarAlCoptan"
            revision="lineage-19.0" />
            
-  <project path="prebuilts/clang/host/linux-x86/clang-proton"
-           name="proton-clang"
-           remote="OmarAlCoptan"
-           revision="master" clone-depth="1" />
-  
 </manifest>
