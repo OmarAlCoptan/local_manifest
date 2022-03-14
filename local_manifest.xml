@@ -2,8 +2,6 @@
 <manifest>
   <remote name="OmarAlCoptan"
           fetch="https://github.com/OmarAlCoptan" />
-  <remote name="ArrowOS-Devices"
-          fetch="https://github.com/ArrowOS-Devices" />
   <remote name="ProtonAOSP-lavender"
           fetch="https://github.com/ProtonAOSP-lavender" />
 
@@ -34,10 +32,6 @@
            revision="qti-oldcam-eas" />
            
 <!--Projects-->
-  <project path="device/xiaomi/extras"
-           name="android_device_xiaomi_extras"
-           remote="ArrowOS-Devices"
-           revision="arrow-12.0" />
   
   <project path="hardware/xiaomi"         
            name="android_hardware_xiaomi"
