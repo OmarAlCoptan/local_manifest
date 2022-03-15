@@ -2,7 +2,8 @@
 <manifest>
   <remote name="OmarAlCoptan"
           fetch="https://github.com/OmarAlCoptan"/>
-  
+  <remote name="ProtonAOSP-lavender"
+          fetch="https://github.com/ProtonAOSP-lavender" />
 
 <!--Trees-->
   <project path="device/xiaomi/lavender"
@@ -33,12 +34,12 @@
 <!--Projects-->
   <project path="device/xiaomi/extras"
            name="android_device_xiaomi_extras"
-           remote="OmarAlCoptan"
+           remote="ProtonAOSP-lavender"
            revision="sc" />
   
   <project path="hardware/xiaomi"         
            name="android_hardware_xiaomi"
-           remote="OmarAlCoptan"
+           remote="ProtonAOSP-lavender"
            revision="sc" />
            
   <project path="external/ant-wireless/antradio-library"
