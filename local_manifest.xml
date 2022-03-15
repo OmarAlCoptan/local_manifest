@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote name="OmarAlCoptan"
-          fetch="https://github.com/OmarAlCoptan" />
-  <remote name="ProtonAOSP-lavender"
-          fetch="https://github.com/ProtonAOSP-lavender" />
+          fetch="https://github.com/OmarAlCoptan"/>
+  
 
 <!--Trees-->
   <project path="device/xiaomi/lavender"
@@ -32,10 +31,14 @@
            revision="qti-oldcam-eas" />
            
 <!--Projects-->
+  <project path="device/xiaomi/extras"
+           name="android_device_xiaomi_extras"
+           remote="OmarAlCoptan"
+           revision="sc" />
   
   <project path="hardware/xiaomi"         
            name="android_hardware_xiaomi"
-           remote="ProtonAOSP-lavender"
+           remote="OmarAlCoptan"
            revision="sc" />
            
   <project path="external/ant-wireless/antradio-library"
