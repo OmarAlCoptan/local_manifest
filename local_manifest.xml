@@ -19,7 +19,7 @@
            
 <!--Projects-->
   
-  <project path="device/xiaomi/extras" name="android_device_xiaomi_extras" remote="Proton" revision="sc" />
+  <project path="device/xiaomi/extras" name="android_device_xiaomi_extras" remote="Arrow" revision="arrow-12.0" />
   
   <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="Proton" revision="sc" />
            
