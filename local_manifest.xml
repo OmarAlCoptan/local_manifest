@@ -4,7 +4,7 @@
 <remote name="OmarAlCoptan" fetch="https://github.com/OmarAlCoptan" />
 <remote name="Proton" fetch="https://github.com/ProtonAOSP-lavender" />
 <remote name="Arrow" fetch="https://github.com/ArrowOS" />
-<remote name="predator" fetch="https://github.com/stormbreaker-project" />
+<remote name="arrow-devices" fetch="https://github.com/ArrowOS-Devices" />
 <remote name="kdrag0n" fetch="https://github.com/kdrag0n" />
     
     <!--Trees-->
@@ -17,7 +17,7 @@
            
   <project path="vendor/xiaomi/sdm660-common" name="vendor_xiaomi_sdm660-common" remote="OmarAlCoptan" revision="12" />
            
-  <project path="kernel/xiaomi/sdm660" name="kernel_xiaomi_lavender" remote="predator" revision="qti-oldcam-eas" />
+  <project path="kernel/xiaomi/sdm660" name="android_kernel_xiaomi_sdm660" remote="arrow-devices" revision="arrow-12.1" />
            
     <!--Replacements-->
   
