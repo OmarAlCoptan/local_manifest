@@ -6,7 +6,7 @@
 <remote name="Arrow" fetch="https://github.com/ArrowOS" />
 <remote name="arrow-devices" fetch="https://github.com/ArrowOS-Devices" />
 <remote name="kdrag0n" fetch="https://github.com/kdrag0n" />
-<remote name="pe_devices" fetch="https://github.com/PixelExperience-Devices/device_xiaomi_sdm660-common" />
+<remote name="pe_devices" fetch="https://github.com/PixelExperience-Devices" />
   
     <!--Trees-->
 
