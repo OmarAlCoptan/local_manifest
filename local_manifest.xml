@@ -19,7 +19,7 @@
            
   <!--project path="vendor/xiaomi/sdm660-common" name="vendor_xiaomi_sdm660-common" remote="OmarAlCoptan" revision="12" /-->
            
-  <project path="kernel/xiaomi/lavender" name="android_kernel_xiaomi_lavender-LTO" remote="nexus" revision="a12" />
+  <project path="kernel/xiaomi/lavender" name="android_kernel_xiaomi_lavender-LTO" remote="OmarAlCoptan" revision="eas-caf" />
            
     <!--Replacements-->
   
