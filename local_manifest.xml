@@ -11,11 +11,11 @@
 
      <!--Trees-->
 
-  <project path="device/xiaomi/lavender" name="device_xiaomi_lavender" remote="OmarAlCoptan" revision="blaze" />
+  <project path="device/xiaomi/lavender" name="device_xiaomi_lavender-decommonized" remote="OmarAlCoptan" revision="blaze" />
            
   <!--project path="device/xiaomi/sdm660-common" name="device_xiaomi_sdm660-common" remote="OmarAlCoptan" revision="12" /-->
            
-  <project path="vendor/xiaomi/lavender" name="vendor_xiaomi_lavender" remote="OmarAlCoptan" revision="twelve" />
+  <project path="vendor/xiaomi/lavender" name="vendor_xiaomi_lavender-decommonized" remote="OmarAlCoptan" revision="twelve" />
            
   <!--project path="vendor/xiaomi/sdm660-common" name="vendor_xiaomi_sdm660-common" remote="OmarAlCoptan" revision="12" /-->
            
