@@ -11,7 +11,7 @@
 
      <!--Trees-->
 
-  <project path="device/xiaomi/lavender" name="device_xiaomi_lavender-decommonized" remote="OmarAlCoptan" revision="blaze" />
+  <project path="device/xiaomi/lavender" name="device_xiaomi_lavender-decommonized" remote="OmarAlCoptan" revision="12" />
            
   <project path="vendor/xiaomi/lavender" name="vendor_xiaomi_lavender-decommonized" remote="OmarAlCoptan" revision="12" />
 
