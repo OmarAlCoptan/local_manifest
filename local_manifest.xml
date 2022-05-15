@@ -32,7 +32,7 @@
   <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="proton" revision="sc" />
   
   <remove-project name="frameworks_base" />
-  <project path="frameworks/base" name=frameworks_base-1" remote="aditya" revision="12.1" />
+  <project path="frameworks/base" name="frameworks_base-1" remote="aditya" revision="12.1" />
 
   <remove-project name="packages_apps_BlazeHouse" />
   <project path="packages/apps/BlazeHouse" name="packages_apps_BlazeHouse" remote="aditya" revision="12.1" />
