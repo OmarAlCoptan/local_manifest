@@ -6,9 +6,9 @@
 <remote name="Arrow" fetch="https://github.com/ArrowOS" />
 <remote name="arrow-devices" fetch="https://github.com/ArrowOS-Devices" />
 <remote name="kdrag0n" fetch="https://github.com/kdrag0n" />
-<remote name="proton" fetch="https://github.com/ProtonAOSP-lavender" />
 <remote name="nexus" fetch="https://github.com/projects-nexus" /> 
 <remote name="aditya" fetch="https://github.com/afterallafk" />
+
      <!--Trees-->
 
   <project path="device/xiaomi/lavender" name="device_xiaomi_lavender-decommonized" remote="OmarAlCoptan" revision="blaze" />
