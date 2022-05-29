@@ -29,7 +29,7 @@
   <project path="hardware/qcom-caf/msm8998/audio" name="android_hardware_qcom_audio" remote="Arrow" revision="arrow-12.1-caf-msm8998" />
   
   <remove-project name="hardware_xiaomi" />
-  <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="proton" revision="sc" />
+  <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="Proton" revision="sc" />
 <!--
   <remove-project name="frameworks_base" />
   <project path="frameworks/base" name="frameworks_base-1" remote="aditya" revision="12.1" />
