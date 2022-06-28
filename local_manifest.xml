@@ -20,10 +20,6 @@
   
   <project path="external/ant-wireless/antradio-library" name="android_external_ant-wireless_antradio-library" remote="Arrow" revision="arrow-12.0" />
 
-  <remove-project name="LineageOS/android_hardware_qcom_audio" />
-  <remove-project name="LineageOS/android_hardware_qcom_media" />
-  <remove-project name="LineageOS/android_hardware_qcom_display" />
-
     <!-- Toolchain -->
 
   <!--project path="prebuilts/clang/host/linux-x86/clang-proton" name="proton-clang" remote="kdrag0n" revision="master" clone-depth="1" /-->
