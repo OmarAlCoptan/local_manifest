@@ -2,9 +2,6 @@
 <manifest>
   
 <remote name="OmarAlCoptan" fetch="https://github.com/OmarAlCoptan" />
-<remote name="Proton" fetch="https://github.com/ProtonAOSP-lavender" />
-<remote name="Arrow" fetch="https://github.com/ArrowOS" />
-<remote name="arrow-devices" fetch="https://github.com/ArrowOS-Devices" />
 <remote name="kdrag0n" fetch="https://github.com/kdrag0n" />
 <remote name="nexus" fetch="https://github.com/projects-nexus" /> 
 
@@ -15,8 +12,6 @@
   <project path="vendor/xiaomi/lavender" name="vendor_xiaomi_lavender-decommonized" remote="OmarAlCoptan" revision="12.1" />
 
   <project path="kernel/xiaomi/lavender" name="android_kernel_xiaomi_lavender-LTO" remote="nexus" revision="qti" />
-           
-    <!--Replacements-->
   
     <!-- Toolchain -->
 
