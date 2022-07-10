@@ -2,17 +2,16 @@
 <manifest>
   
 <remote name="OmarAlCoptan" fetch="https://github.com/OmarAlCoptan" />
-<remote name="blaze" fetch="https://github.com/ProjectBlaze-Devices" />
+<remote name="Blaze" fetch="https://github.com/ProjectBlaze-Devices" />
 <remote name="kdrag0n" fetch="https://github.com/kdrag0n" />
 <remote name="nexus" fetch="https://github.com/projects-nexus" /> 
-<remote name="aditya" fetch="https://github.com/afterallafk" />
 <remote name="los" fetch="https://github.com/LineageOS" />
 
      <!--Trees-->
 
-  <project path="device/xiaomi/lavender" name="device_xiaomi_lavender-decommonized" remote="blaze" revision="12.1" />
+  <project path="device/xiaomi/lavender" name="device_xiaomi_lavender-decommonized" remote="Blaze" revision="12.1" />
            
-  <project path="vendor/xiaomi/lavender" name="vendor_xiaomi_lavender-decommonized" remote="blaze" revision="12.1" />
+  <project path="vendor/xiaomi/lavender" name="vendor_xiaomi_lavender-decommonized" remote="Blaze" revision="12.1" />
 
   <project path="kernel/xiaomi/lavender" name="android_kernel_xiaomi_lavender-LTO" remote="nexus" revision="qti" />
            
@@ -29,16 +28,6 @@
   
   <remove-project name="hardware_xiaomi" />
   <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="los" revision="lineage-19.1" />
-<!--
-  <remove-project name="frameworks_base" />
-  <project path="frameworks/base" name="frameworks_base-1" remote="aditya" revision="12.1" />
-
-  <remove-project name="packages_apps_BlazeHouse" />
-  <project path="packages/apps/BlazeHouse" name="packages_apps_BlazeHouse" remote="aditya" revision="12.1" />
-
-  <remove-project name="packages_apps_Settings" />
-  <project path="packages/apps/Settings" name="packages_apps_Settings-1" remote="aditya" revision="12.1" />
--->
 
     <!-- Toolchain -->
 
