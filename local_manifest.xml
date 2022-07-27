@@ -6,6 +6,7 @@
 <remote name="kdrag0n" fetch="https://github.com/kdrag0n" />
 <remote name="nexus" fetch="https://github.com/projects-nexus" /> 
 <remote name="los" fetch="https://github.com/LineageOS" />
+<remote name="val" fetch="https://github.com/Valera1978" />
 
      <!--Trees-->
 
@@ -15,7 +16,8 @@
 
   <project path="kernel/samsung/exynos7870" name="android_kernel_samsung_exynos7870" remote="OmarAlCoptan" revision="lineage-19.1" />
            
-
+  <project path="hardware/samsung" name="android_hardware_samsung" remote="val" revision="lineage-17.0" />
+ 
     <!-- Toolchain -->
 
   <!--project path="prebuilts/clang/host/linux-x86/clang-proton" name="proton-clang" remote="kdrag0n" revision="master" clone-depth="1" /-->
