@@ -16,7 +16,7 @@
 
   <project path="kernel/samsung/exynos7870" name="android_kernel_samsung_exynos7870" remote="OmarAlCoptan" revision="lineage-19.1" />
            
-  <project path="hardware/samsung" name="android_hardware_samsung" remote="val" revision="lineage-17.0" />
+  <project path="hardware/samsung" name="android_hardware_samsung" remote="OmarAlCoptan" revision="lineage-19.1" />
  
     <!-- Toolchain -->
 
