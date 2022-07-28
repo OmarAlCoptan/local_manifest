@@ -12,8 +12,10 @@
 
   <project path="device/samsung/gtaxllte" name="android_device_samsung_gtaxllte" remote="OmarAlCoptan" revision="12.1" />
            
-  <project path="vendor/samsung/gtaxllte" name="android_vendor_samsung_gtaxllte" remote="OmarAlCoptan" revision="12.1" />
+  <project path="vendor/samsung/gtaxllte" name="android_vendor_samsung_gtaxllte" remote="OmarAlCoptan" revision="lineage-18.1" />
 
+  <project path="vendor/samsung/gtaxl-common" name="android_vendor_samsung_gtaxl-common" remote="OmarAlCoptan" revision="lineage-19.1" />
+  
   <project path="kernel/samsung/exynos7870" name="android_kernel_samsung_exynos7870" remote="OmarAlCoptan" revision="lineage-19.1" />
            
   <project path="hardware/samsung" name="android_hardware_samsung" remote="OmarAlCoptan" revision="lineage-19.1" />
