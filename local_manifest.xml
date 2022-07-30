@@ -9,11 +9,11 @@
 
      <!--Trees-->
 
-  <project path="device/xiaomi/lavender" name="device_xiaomi_lavender" remote="Blaze" revision="12.1" />
+  <project path="device/xiaomi/lavender" name="device_xiaomi_lavender" remote="Blaze" revision="12.1-test" />
            
-  <project path="vendor/xiaomi/lavender" name="vendor_xiaomi_lavender" remote="Blaze" revision="12.1" />
+  <project path="vendor/xiaomi/lavender" name="vendor_xiaomi_lavender" remote="Blaze" revision="12.1-test" />
 
-  <project path="kernel/xiaomi/lavender" name="kernel_xiaomi_lavender" remote="OmarAlCoptan" revision="qti-oldcam-eas" />
+  <project path="kernel/xiaomi/lavender" name="kernel_xiaomi_lavender" remote="nexus" revision="qti" />
            
     <!--Replacements-->
   
