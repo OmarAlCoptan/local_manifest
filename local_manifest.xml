@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  
 <remote name="OmarAlCoptan" fetch="https://github.com/OmarAlCoptan" />
 <remote name="kdrag0n" fetch="https://github.com/kdrag0n" />
 <remote name="nexus" fetch="https://github.com/projects-nexus" /> 
+<remote name="Pixys" fetch="https://github.com/PixysOS" />
+<remote name="Pixys-Devices" fetch="https://github.com/PixysOS-Devices" />
 
      <!--Trees-->
 
-  <project path="device/xiaomi/lavender" name="device_xiaomi_lavender-decommonized" remote="OmarAlCoptan" revision="snow" />
+  <project path="device/xiaomi/lavender" name="device_xiaomi_lavender" remote="Pixys-Devices" revision="twelve-test" />
            
-  <project path="vendor/xiaomi/lavender" name="vendor_xiaomi_lavender-decommonized" remote="OmarAlCoptan" revision="12.1" />
+  <project path="vendor/xiaomi/lavender" name="vendor_xiaomi_lavender" remote="OmarAlCoptan" revision="12.1" />
 
-  <project path="kernel/xiaomi/lavender" name="kernel_xiaomi_lavender" remote="OmarAlCoptan" revision="qti-oldcam-eas" />
+  <project path="kernel/xiaomi/lavender" name="kernel_xiaomi_lavender" remote="OmarAlCoptan" revision="arrow-12.1" />
+
+  <project path="hardware/xiaomi" name="hardware_xiaomi" remote="Pixys-Devices" revision="twelve" />
   
-    <!-- Toolchain -->
-
-  <!--project path="prebuilts/clang/host/linux-x86/clang-proton" name="proton-clang" remote="kdrag0n" revision="master" clone-depth="1" /-->
-
+  <project path="packages/resources/devicesettings" name="packages_resources_devicesettings" remote="Pixys" revision="twelve" />
 </manifest>
 
 
