@@ -11,7 +11,7 @@
            
   <project path="vendor/xiaomi/lavender" name="vendor_xiaomi_lavender-decommonized" remote="OmarAlCoptan" revision="12.1" />
 
-  <project path="kernel/xiaomi/lavender" name="kernel_xiaomi_lavender" remote="OmarAlCoptan" revision="qti-oldcam-eas" />
+  <project path="kernel/xiaomi/lavender" name="kernel_xiaomi_lavender" remote="OmarAlCoptan" revision="arrow-12.1" />
   
     <!-- Toolchain -->
 
