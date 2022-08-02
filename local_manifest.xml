@@ -7,11 +7,11 @@
 
      <!--Trees-->
 
-  <project path="device/xiaomi/lavender" name="device_xiaomi_lavender" remote="OmarAlCoptan" revision="banana-test" />
+  <project path="device/xiaomi/lavender" name="device_xiaomi_lavender" remote="OmarAlCoptan" revision="banana" />
            
-  <project path="vendor/xiaomi/lavender" name="vendor_xiaomi_lavender" remote="OmarAlCoptan" revision="12.1-test" />
+  <project path="vendor/xiaomi/lavender" name="vendor_xiaomi_lavender" remote="OmarAlCoptan" revision="12.1" />
 
-  <project path="kernel/xiaomi/lavender" name="nexus_kernel_xiaomi_lavender" remote="nexus" revision="qti" />
+  <project path="kernel/xiaomi/lavender" name="kernel_xiaomi_lavender" remote="OmarAlCoptan" revision="arrow-12.1" />
   
     <!-- Toolchain -->
 
