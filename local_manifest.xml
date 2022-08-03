@@ -4,7 +4,7 @@
 <remote name="OmarAlCoptan" fetch="https://github.com/OmarAlCoptan" />
 <remote name="kdrag0n" fetch="https://github.com/kdrag0n" />
 <remote name="nexus" fetch="https://github.com/projects-nexus" /> 
-
+<remote name=banana" fetch="https://github.com/bananadroid" />
      <!--Trees-->
 
   <project path="device/xiaomi/lavender" name="device_xiaomi_lavender" remote="OmarAlCoptan" revision="snow" />
@@ -13,6 +13,8 @@
 
   <project path="kernel/xiaomi/lavender" name="kernel_xiaomi_lavender" remote="OmarAlCoptan" revision="arrow-12.1" />
   
+  <project path="vendor/extras" name="android_vendor_extras" remote="banana" revision="12" />
+
     <!-- Toolchain -->
 
   <!--project path="prebuilts/clang/host/linux-x86/clang-proton" name="proton-clang" remote="kdrag0n" revision="master" clone-depth="1" /-->
