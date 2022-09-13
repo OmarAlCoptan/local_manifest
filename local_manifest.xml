@@ -4,14 +4,15 @@
 <remote name="OmarAlCoptan" fetch="https://github.com/OmarAlCoptan" />
 <remote name="kdrag0n" fetch="https://github.com/kdrag0n" />
 <remote name="nexus" fetch="https://github.com/projects-nexus" /> 
-<remote name="banana" fetch="https://github.com/bananadroid" />
+<remote name="Arrow-Devices" fetch="https://github.com/ArrowOS-Devices" />
+
      <!--Trees-->
 
-  <project path="device/xiaomi/lavender" name="device_xiaomi_lavender" remote="OmarAlCoptan" revision="snow" />
+  <project path="device/xiaomi/lavender" name="device_xiaomi_lavender" remote="OmarAlCoptan" revision="tiramisu" />
            
-  <project path="vendor/xiaomi/lavender" name="vendor_xiaomi_lavender" remote="OmarAlCoptan" revision="12.1" />
+  <project path="vendor/xiaomi/lavender" name="vendor_xiaomi_lavender" remote="OmarAlCoptan" revision="thirteen" />
 
-  <project path="kernel/xiaomi/lavender" name="kernel_xiaomi_lavender" remote="OmarAlCoptan" revision="arrow-12.1" />
+  <project path="kernel/xiaomi/lavender" name="android_kernel_xiaomi_sdm660" remote="OmarAlCoptan" revision="arrow-12.1" />
 
     <!-- Toolchain -->
 
