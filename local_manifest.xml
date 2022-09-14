@@ -5,6 +5,7 @@
 <remote name="kdrag0n" fetch="https://github.com/kdrag0n" />
 <remote name="nexus" fetch="https://github.com/projects-nexus" /> 
 <remote name="Arrow-Devices" fetch="https://github.com/ArrowOS-Devices" />
+<remote name="PE" fetch="https://github.com/PixelExperience-Devices" />
 
      <!--Trees-->
 
