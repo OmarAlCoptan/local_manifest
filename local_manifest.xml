@@ -12,7 +12,9 @@
            
   <project path="vendor/xiaomi/lavender" name="vendor_xiaomi_lavender" remote="OmarAlCoptan" revision="thirteen" />
 
-  <project path="kernel/xiaomi/lavender" name="android_kernel_xiaomi_sdm660" remote="OmarAlCoptan" revision="arrow-12.1" />
+  <!--project path="kernel/xiaomi/lavender" name="android_kernel_xiaomi_sdm660" remote="OmarAlCoptan" revision="arrow-12.1" /-->
+
+  <project path="kernel/xiaomi/lavender" name="kernel_xiaomi_lavender" remote="PE" revision="thirteen-wip" />
 
     <!-- Toolchain -->
 
