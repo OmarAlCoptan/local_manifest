@@ -11,7 +11,7 @@
            
   <project path="vendor/xiaomi/lavender" name="vendor_xiaomi_lavender" remote="OmarAlCoptan" revision="13-4.19" />
 
-  <project path="kernel/xiaomi/lavender" name="android_kernel_xiaomi_southwest-4.19" remote="OmarAlCoptan" revision="main" />
+  <project path="kernel/xiaomi/sdm660" name="android_kernel_xiaomi_southwest-4.19" remote="OmarAlCoptan" revision="main" />
 
   <project path="device/xiaomi/sdm660-common" name="device_xiaomi_sdm660-common" remote="OmarAlCoptan" revision="13-4.19" />
 
