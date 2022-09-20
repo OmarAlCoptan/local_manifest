@@ -2,26 +2,21 @@
 <manifest>
   
 <remote name="OmarAlCoptan" fetch="https://github.com/OmarAlCoptan" />
-<remote name="kdrag0n" fetch="https://github.com/kdrag0n" />
 <remote name="nexus" fetch="https://github.com/projects-nexus" /> 
-<remote name="Arrow-Devices" fetch="https://github.com/ArrowOS-Devices" />
 <remote name="PE" fetch="https://github.com/PixelExperience-Devices" />
 
      <!--Trees-->
 
-  <project path="device/xiaomi/lavender" name="device_xiaomi_lavender" remote="OmarAlCoptan" revision="tiramisu" />
+  <project path="device/xiaomi/lavender" name="device_xiaomi_lavender" remote="OmarAlCoptan" revision="evolution-4.19" />
            
-  <project path="vendor/xiaomi/lavender" name="vendor_xiaomi_lavender" remote="OmarAlCoptan" revision="thirteen" />
+  <project path="vendor/xiaomi/lavender" name="vendor_xiaomi_lavender" remote="OmarAlCoptan" revision="13-4.19" />
 
-  <project path="kernel/xiaomi/lavender" name="kernel_xiaomi_lavender" remote="OmarAlCoptan" revision="thirteen" />
+  <project path="kernel/xiaomi/lavender" name="android_kernel_xiaomi_southwest-4.19" remote="OmarAlCoptan" revision="main" />
 
-  <!--project path="kernel/xiaomi/lavender" name="nexus_kernel_xiaomi_lavender" remote="nexus" revision="qti" /-->
+  <project path="device/xiaomi/sdm660-common" name="device_xiaomi_sdm660-common" remote="OmarAlCoptan" revision="13-4.19" />
 
-  <!--project path="kernel/xiaomi/lavender" name="kernel_xiaomi_lavender" remote="PE" revision="thirteen" /-->
+  <project path="vendor/xiaomi/sdm660-common" name="vendor_xiaomi_sdm660-common" remote="OmarAlCoptan" revision="13-4.19" />
 
-    <!-- Toolchain -->
-
-  <!--project path="prebuilts/clang/host/linux-x86/clang-proton" name="proton-clang" remote="kdrag0n" revision="master" clone-depth="1" /-->
 
 </manifest>
 
