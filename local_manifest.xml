@@ -3,7 +3,7 @@
   
 <remote name="OmarAlCoptan" fetch="https://github.com/OmarAlCoptan" />
 <remote name="nexus" fetch="https://github.com/projects-nexus" /> 
-<remote name="PE" fetch="https://github.com/PixelExperience-Devices" />
+<remote name="wHoEMi" fetch="https://github.com/wHo-EM-i" />
 
      <!--Trees-->
 
@@ -17,6 +17,14 @@
 
   <project path="vendor/xiaomi/sdm660-common" name="vendor_xiaomi_sdm660-common" remote="OmarAlCoptan" revision="13-4.19" />
 
+
+   <remove-project name="ArrowOS/android_hardware_qcom_display" />
+   <remove-project name="ArrowOS/android_hardware_qcom_media" />
+   <remove-project name="ArrowOS/android_hardware_qcom_audio" />
+    
+   <project path="hardware/qcom-caf/sdm660/display" name="android_hardware_qcom_display" remote="wHoEMi" revision="13-caf-sdm660" />
+   <project path="hardware/qcom-caf/sdm660/media" name="android_hardware_qcom_media" remote="wHoEMi" revision="13-caf-sdm660" />
+   <project path="hardware/qcom-caf/sdm660/audio" name="android_hardware_qcom_audio" remote="wHoEMi" revision="13-caf-sdm660" />
 
 </manifest>
 
