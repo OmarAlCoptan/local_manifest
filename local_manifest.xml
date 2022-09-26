@@ -27,7 +27,7 @@
   <project path="hardware/qcom-caf/msm8998/audio" name="android_hardware_qcom_audio" remote="los" revision="lineage-20.0-caf-msm8998" />
   
   <remove-project name="hardware_xiaomi" />
-  <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="los" revision="lineage-20.0" />
+  <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="los" revision="lineage-20" />
 
     <!-- Toolchain -->
 
