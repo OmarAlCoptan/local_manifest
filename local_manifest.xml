@@ -12,7 +12,7 @@
 
   <project path="device/xiaomi/lavender" name="device_xiaomi_lavender" remote="Blaze" revision="thirteen" />
            
-  <project path="vendor/xiaomi/lavender" name="vendor_xiaomi_lavender" remote="OmarAlCoptan" revision="13-4.4" />
+  <project path="vendor/xiaomi/lavender" name="vendor_xiaomi_lavender" remote="OmarAlCoptan" revision="thirteen" />
 
   <project path="kernel/xiaomi/lavender" name="nexus_kernel_xiaomi_lavender" remote="nexus" revision="qti" />
            
