@@ -2,25 +2,28 @@
 <manifest>
   
 <remote name="OmarAlCoptan" fetch="https://github.com/OmarAlCoptan" />
-<remote name="kdrag0n" fetch="https://github.com/kdrag0n" />
-<remote name="nexus" fetch="https://github.com/projects-nexus" /> 
-<remote name="Arrow-Devices" fetch="https://github.com/ArrowOS-Devices" />
-<remote name="PE" fetch="https://github.com/PixelExperience-Devices" />
+<remote name="EvoX" fetch="https://github.com/Evolution-X-Devices" />
+<remote name="Arrow" fetch="https://github.com/ArrowOS" />
+<remote name="Trb" fetch="https://gitlab.com/varunhardgamer" />
 
-     <!--Trees-->
+============Trees============
 
-  <project path="device/xiaomi/lavender" name="device_xiaomi_lavender" remote="OmarAlCoptan" revision="tiramisu" />
+  <project path="device/xiaomi/lavender" name="device_xiaomi_lavender" remote="EvoX" revision="tiramisu" />
+  <project path="vendor/xiaomi/lavender" name="vendor_xiaomi_lavender" remote="OmarAlCoptan" revision="tiramisu" />
+  <project path="kernel/xiaomi/lavender" name="kernel_xiaomi_lavender" remote="OmarAlCoptan" revision="tiramisu" />
 
-  <project path="vendor/xiaomi/lavender" name="vendor_xiaomi_lavender" remote="OmarAlCoptan" revision="thirteen" />
+=============Hals============
 
-  <project path="kernel/xiaomi/lavender" name="nexus_kernel_xiaomi_lavender" remote="nexus" revision="qti" />
+  <remove-project name="LineageOS/android_hardware_qcom_display" />
+  <remove-project name="LineageOS/android_hardware_qcom_media" />
+  <remove-project name="LineageOS/android_hardware_qcom_audio" />
   
-  <!--project path="kernel/xiaomi/lavender" name="nexus_kernel_xiaomi_lavender" remote="nexus" revision="qti" /-->
-  
-  <!--project path="kernel/xiaomi/lavender" name="kernel_xiaomi_lavender" remote="PE" revision="thirteen" /-->
+  <project path="hardware/qcom-caf/msm8998/display" name="android_hardware_qcom_display" remote="Arrow" revision="arrow-13.0-caf-msm8998" />
+  <project path="hardware/qcom-caf/msm8998/media" name="android_hardware_qcom_media" remote="Arrow" revision="arrow-13.0-caf-msm8998" />
+  <project path="hardware/qcom-caf/msm8998/audio" name="android_hardware_qcom_audio" remote="Arrow" revision="arrow-13.0-caf-msm8998" />
 
-    <!-- Toolchain -->
+=============Clang============
 
-  <!--project path="prebuilts/clang/host/linux-x86/clang-proton" name="proton-clang" remote="kdrag0n" revision="master" clone-depth="1" /-->
+  <project path="prebuilts/clang/host/linux-x86/trb_clang" name="trb_clang" remote="Trb" revision="16" />
 
 </manifest>
