@@ -26,7 +26,7 @@
 
 <!--=============Clang============-->
 
-  <project path="prebuilts/clang/host/linux-x86/trb_clang" name="trb_clang" remote="Trb" revision="16" clone-depth="1" />
+
   <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="clang" revision="master" clone-depth="1" />
 
 </manifest>
