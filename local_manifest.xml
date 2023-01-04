@@ -1,31 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   
-<remote name="OmarAlCoptan" fetch="https://github.com/OmarAlCoptan" />
-<remote name="EvoX" fetch="https://github.com/Evolution-X-Devices" />
-<remote name="Arrow" fetch="https://github.com/ArrowOS" />
-<remote name="Trb" fetch="https://gitlab.com/varunhardgamer" />
-<remote name="clang" fetch="https://gitlab.com/Amritorock" />
+<remote name="OmarAlCoptan" 
+        fetch="https://github.com/OmarAlCoptan" />
+<remote name="EvoX" 
+        fetch="https://github.com/Evolution-X-Devices" />
+<remote name="gtaxllte"
+        fetch="https://github.com/Gtaxllte" />
+<remote name="clang" 
+        fetch="https://gitlab.com/Amritorock" />
 
 <!--============Trees============-->
 
-  <project path="device/xiaomi/lavender" name="device_xiaomi_lavender" remote="EvoX" revision="tiramisu" />
-  <project path="vendor/xiaomi/lavender" name="vendor_xiaomi_lavender" remote="OmarAlCoptan" revision="tiramisu" />
-  <project path="kernel/xiaomi/lavender" name="kernel_xiaomi_lavender" remote="OmarAlCoptan" revision="tiramisu" />
+  <project path="device/samsung/gtaxllte" name="android_device_samsung_gtaxllte" remote="gtaxllte" revision="tiramisu" />
+  <project path="device/samsung/gtaxl-common" name="android_device_samsung_gtaxl-common" remote="gtaxllte" revision="tiramisu" />
+  <project path="vendor/samsung/gtaxllte" name="android_vendor_samsung_gtaxllte" remote="gtaxllte" revision="tiramisu" />
+  <project path="vendor/samsung/gtaxl-common" name="android_vendor_samsung_gtaxl-common" remote="gtaxllte" revision="tiramisu" />
+  <project path="kernel/samsung/exynos7870" name="android_kernel_samsung_exynos7870" remote="gtaxllte" revision="tiramisu" />
 
-<!--=============Hals============-->
+<!--=============Patches============-->
 
-  <remove-project name="LineageOS/android_hardware_qcom_display" />
-  <remove-project name="LineageOS/android_hardware_qcom_media" />
-  <remove-project name="LineageOS/android_hardware_qcom_audio" />
-  <remove-project name="android_hardware_lineage_compat" />
-  
-  <project path="hardware/qcom-caf/msm8998/display" name="android_hardware_qcom_display" remote="Arrow" revision="arrow-13.0-caf-msm8998" />
-  <project path="hardware/qcom-caf/msm8998/media" name="android_hardware_qcom_media" remote="Arrow" revision="arrow-13.0-caf-msm8998" />
-  <project path="hardware/qcom-caf/msm8998/audio" name="android_hardware_qcom_audio" remote="Arrow" revision="arrow-13.0-caf-msm8998" />
+  <remove-project name="system/netd" />
+  <remove-project name="system/bpf" />
+  <remove-project name="frameworks/libs/net" />
+  <remove-project name="packages/modules/Connectivity" />
+
+  <project path="system/netd" name="system_netd" remote="gtaxllte" revision="tiramisu" />
+  <project path="system/bpf" name="system_bpf" remote="gtaxllte" revision="tiramisu" />
+  <project path="frameworks/libs/net" name="frameworks_libs_net" remote="gtaxllte" revision="tiramisu" />
+  <project path="packages/modules/Connectivity" name="packages_modules_Connectivity" remote="gtaxllte" revision="tiramisu" />
+
+  <project path="hardware/samsung" name="android_hardware_samsung" remote="gtaxllte" revision="tiramisu" />
+  <project path="hardware/samsung_slsi_exynos" name="android_hardware_samsung_slsi_exynos" remote="gtaxllte" revision="tiramisu" />
+  <project path="hardware/samsung_slsi_exynos5" name="android_hardware_samsung_slsi_exynos5" remote="gtaxllte" revision="tiramisu" />
+  <project path="hardware/samsung_slsi_exynos7870" name="android_hardware_samsung_slsi_exynos7870" remote="gtaxllte" revision="tiramisu" />
 
 <!--=============Clang============-->
-
 
   <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="clang" revision="master" clone-depth="1" />
 
