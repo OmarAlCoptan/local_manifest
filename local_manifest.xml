@@ -20,8 +20,8 @@
 
 <!--=============Patches============-->
 
-  <remove-project name="system/netd" />
-  <remove-project name="system/bpf" />
+  <remove-project name="platform/system/netd" />
+  <remove-project name="platform/system/bpf" />
   <remove-project name="frameworks/libs/net" />
   <remove-project name="packages/modules/Connectivity" />
 
