@@ -38,7 +38,7 @@
   <project path="frameworks/libs/net" name="frameworks_libs_net" remote="gtaxllte" revision="tiramisu" />
   <project path="packages/modules/Connectivity" name="packages_modules_Connectivity" remote="gtaxllte" revision="tiramisu" />
 
-  <project path="hardware/samsung" name="android_hardware_samsung" remote="gtaxllte" revision="lineage-20.0" />
+  <project path="hardware/samsung" name="android_hardware_samsung" remote="gtaxllte" revision="lineage-20" />
   <project path="hardware/samsung_slsi/exynos" name="android_hardware_samsung_slsi_exynos" remote="gtaxllte" revision="tiramisu" />
   <project path="hardware/samsung_slsi/exynos5" name="android_hardware_samsung_slsi_exynos5" remote="gtaxllte" revision="tiramisu" />
   <project path="hardware/samsung_slsi/exynos7870" name="android_hardware_samsung_slsi_exynos7870" remote="gtaxllte" revision="tiramisu" />
