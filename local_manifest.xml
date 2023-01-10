@@ -9,6 +9,8 @@
         fetch="https://github.com/Gtaxllte" />
 <remote name="clang" 
         fetch="https://gitlab.com/Amritorock" />
+<remote name="kdrag0n" 
+        fetch="https://github.com/kdrag0n" />
 
 <!--============Trees============-->
 
