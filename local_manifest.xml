@@ -14,11 +14,11 @@
 
 <!--============Trees============-->
 
-  <project path="device/samsung/gtaxllte" name="android_device_samsung_gtaxllte" remote="gtaxllte" revision="tiramisu" />
-  <project path="device/samsung/gtaxl-common" name="android_device_samsung_gtaxl-common" remote="gtaxllte" revision="tiramisu" />
-  <project path="vendor/samsung/gtaxllte" name="android_vendor_samsung_gtaxllte" remote="gtaxllte" revision="tiramisu" />
-  <project path="vendor/samsung/gtaxl-common" name="android_vendor_samsung_gtaxl-common" remote="gtaxllte" revision="tiramisu" />
-  <project path="kernel/samsung/exynos7870" name="android_kernel_samsung_exynos7870" remote="gtaxllte" revision="tiramisu" />
+  <project path="device/samsung/gtaxllte" name="android_device_samsung_gtaxllte" remote="gtaxllte" revision="tiramisu" clone-depth="1" />
+  <project path="device/samsung/gtaxl-common" name="android_device_samsung_gtaxl-common" remote="gtaxllte" revision="tiramisu" clone-depth="1" />
+  <project path="vendor/samsung/gtaxllte" name="android_vendor_samsung_gtaxllte" remote="gtaxllte" revision="tiramisu" clone-depth="1" />
+  <project path="vendor/samsung/gtaxl-common" name="android_vendor_samsung_gtaxl-common" remote="gtaxllte" revision="tiramisu" clone-depth="1" />
+  <project path="kernel/samsung/exynos7870" name="android_kernel_samsung_exynos7870" remote="gtaxllte" revision="tiramisu" clone-depth="1" />
 
 <!--=============Patches============-->
 
@@ -29,19 +29,19 @@
   <remove-project name="platform/hardware/qcom/wlan" />
   <remove-project name="platform/hardware/ril" />
 
-  <project path="lineage-sdk" name="android_lineage-sdk" remote="gtaxllte" revision="lineage-20.0" />
-  <project path="hardware/qcom/wlan" name="android_hardware_qcom_wlan" remote="gtaxllte" revision="lineage-20.0" />
-  <project path="hardware/ril" name="android_hardware_ril" remote="gtaxllte" revision="lineage-20.0" />
+  <project path="lineage-sdk" name="android_lineage-sdk" remote="gtaxllte" revision="lineage-20.0" clone-depth="1" />
+  <project path="hardware/qcom/wlan" name="android_hardware_qcom_wlan" remote="gtaxllte" revision="lineage-20.0" clone-depth="1" />
+  <project path="hardware/ril" name="android_hardware_ril" remote="gtaxllte" revision="lineage-20.0" clone-depth="1" />
 
-  <project path="system/netd" name="system_netd" remote="gtaxllte" revision="tiramisu" />
-  <project path="system/bpf" name="system_bpf" remote="gtaxllte" revision="tiramisu" />
-  <project path="frameworks/libs/net" name="frameworks_libs_net" remote="gtaxllte" revision="tiramisu" />
-  <project path="packages/modules/Connectivity" name="packages_modules_Connectivity" remote="gtaxllte" revision="tiramisu" />
+  <project path="system/netd" name="system_netd" remote="gtaxllte" revision="tiramisu" clone-depth="1" />
+  <project path="system/bpf" name="system_bpf" remote="gtaxllte" revision="tiramisu" clone-depth="1" />
+  <project path="frameworks/libs/net" name="frameworks_libs_net" remote="gtaxllte" revision="tiramisu" clone-depth="1" />
+  <project path="packages/modules/Connectivity" name="packages_modules_Connectivity" remote="gtaxllte" revision="tiramisu" clone-depth="1" />
 
-  <project path="hardware/samsung" name="android_hardware_samsung" remote="gtaxllte" revision="lineage-20" />
-  <project path="hardware/samsung_slsi/exynos" name="android_hardware_samsung_slsi_exynos" remote="gtaxllte" revision="tiramisu" />
-  <project path="hardware/samsung_slsi/exynos5" name="android_hardware_samsung_slsi_exynos5" remote="gtaxllte" revision="tiramisu" />
-  <project path="hardware/samsung_slsi/exynos7870" name="android_hardware_samsung_slsi_exynos7870" remote="gtaxllte" revision="tiramisu" />
+  <project path="hardware/samsung" name="android_hardware_samsung" remote="gtaxllte" revision="lineage-20" clone-depth="1" />
+  <project path="hardware/samsung_slsi/exynos" name="android_hardware_samsung_slsi_exynos" remote="gtaxllte" revision="tiramisu" clone-depth="1" />
+  <project path="hardware/samsung_slsi/exynos5" name="android_hardware_samsung_slsi_exynos5" remote="gtaxllte" revision="tiramisu" clone-depth="1" />
+  <project path="hardware/samsung_slsi/exynos7870" name="android_hardware_samsung_slsi_exynos7870" remote="gtaxllte" revision="tiramisu" clone-depth="1" />
 
 <!--=============Clang============-->
 
