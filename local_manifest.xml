@@ -24,6 +24,12 @@
   <remove-project name="platform/system/bpf" />
   <remove-project name="frameworks_libs_net" />
   <remove-project name="packages_modules_Connectivity" />
+  <remove-project name="platform/hardware/qcom/wlan" />
+  <remove-project name="platform/hardware/ril" />
+
+  <project path="lineage-sdk" name="android_lineage-sdk" remote="gtaxllte" revision="lineage-20.0" />
+  <project path="hardware/qcom/wlan" name="android_hardware_qcom_wlan" remote="gtaxllte" revision="lineage-20.0" />
+  <project path="hardware/ril" name="android_hardware_ril" remote="gtaxllte" revision="lineage-20.0" />
 
   <project path="system/netd" name="system_netd" remote="gtaxllte" revision="tiramisu" />
   <project path="system/bpf" name="system_bpf" remote="gtaxllte" revision="tiramisu" />
@@ -38,5 +44,5 @@
 <!--=============Clang============-->
 
   <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="clang" revision="master" clone-depth="1" />
-
+  <project path="prebuilts/clang/host/linux-x86/clang-proton" name="proton-clang" remote="kdrag0n" revision="master" clone-depth="1" />
 </manifest>
