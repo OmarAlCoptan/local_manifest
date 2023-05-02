@@ -1,19 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   
-<remote name="OmarAlCoptan" fetch="https://github.com/OmarAlCoptan" />
-<remote name="EvoX" fetch="https://github.com/Evolution-X-Devices" />
-<remote name="Arrow" fetch="https://github.com/ArrowOS" />
-<remote name="Trb" fetch="https://gitlab.com/varunhardgamer" />
+<remote name="Coptan" fetch="https://github.com/OmarAlCoptan" />
+<remote name="EvoX" fetch="https://github.com/Evolution-X" />
+<remote name="EvoX-Devices" fetch="https://github.com/Evolution-X-Devices" />
 <remote name="clang" fetch="https://gitlab.com/Amritorock" />
 
 <!--============Trees============-->
 
-  <project path="device/xiaomi/lavender" name="device_xiaomi_lavender" remote="EvoX" revision="tiramisu" />
-  <project path="vendor/xiaomi/lavender" name="vendor_xiaomi_lavender" remote="OmarAlCoptan" revision="tiramisu" />
-  <project path="kernel/xiaomi/lavender" name="kernel_xiaomi_lavender" remote="OmarAlCoptan" revision="tiramisu" />
+  <project path="device/xiaomi/lavender" name="device_xiaomi_lavender" remote="EvoX-Devices" revision="tiramisu" />
+  <project path="vendor/xiaomi/lavender" name="vendor_xiaomi_lavender" remote="Coptan" revision="tiramisu" />
+  <project path="kernel/xiaomi/lavender" name="kernel_xiaomi_lavender" remote="Coptan" revision="tiramisu" />
 
-
+<!--=========Replacements=========-->
+  <remove-project name="bionic" />
+  <remove-project name="build" />
+  <remove-project name="build_soong" />
+  <remove-project name="manifest" />
+  <remove-project name="system_core" />
+  
+  <project path="bionic" name="bionic" revision="tiramisu-jem" remote="EvoX" />
+  <project path="build/make" name="build" remote="evo" revision="tiramisu-jem" groups="pdk" >
+    <copyfile src="core/root.mk" dest="Makefile" />
+    <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
+    <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
+    <linkfile src="core" dest="build/core" />
+    <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
+    <linkfile src="target" dest="build/target" />
+    <linkfile src="tools" dest="build/tools" />
+  </project>
+  
+  <project path="build/soong" name="build_soong" revision="tiramisu-jem" remote="EvoX" groups="pdk,tradefed" >
+    <linkfile src="root.bp" dest="Android.bp" />
+    <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
+  </project>
+  
+  <project path="manifest" name="manifest" revision="tiramisu-jem" remote="EvoX" />
+  
+  <project path="system/core" name="system_core" revision="tiramisu-jem" remote="EvoX" />
 
 
 <!--=============Clang============-->
