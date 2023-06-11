@@ -8,7 +8,7 @@
 
 <!--============Trees============-->
 
-  <project path="device/xiaomi/lavender" name="device_xiaomi_lavender" remote="EvoX-Devices" revision="tiramisu" />
+  <project path="device/xiaomi/lavender" name="device_xiaomi_lavender" remote="EvoX-Devices" revision="tiramisu-wip" />
   <project path="vendor/xiaomi/lavender" name="vendor_xiaomi_lavender" remote="Coptan" revision="tiramisu" />
   <project path="kernel/xiaomi/lavender" name="kernel_xiaomi_lavender" remote="Coptan" revision="tiramisu" />
 
