@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   
-<remote name="Coptan" fetch="https://github.com/OmarAlCoptan" />
+<remote name="Coptan" fetch="https://github.com/Coptan99" />
 <remote name="EvoX" fetch="https://github.com/Evolution-X" />
 <remote name="EvoX-Devices" fetch="https://github.com/Evolution-X-Devices" />
 <remote name="clang" fetch="https://gitlab.com/Amritorock" />
