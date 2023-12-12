@@ -4,19 +4,13 @@
 <remote name="coptan" fetch="https://github.com/Coptan99" />
 <!-- <remote name="coptan" fetch="ssh://git@github.com/Coptan99" /> -->
 <!-- <remote name="EvoX" fetch="https://github.com/Evolution-X" /> -->
-<!-- <remote name="EvoX-Devices" fetch="https://github.com/Evolution-X-Devices" /> -->
+<remote name="EvoX-Devices" fetch="https://github.com/Evolution-X-Devices" />
 
-  <project path="device/xiaomi/lavender" remote="coptan" name="device_xiaomi_lavender" revision="udc" />
-  <project path="device/xiaomi/sdm660-common" remote="coptan" name="device_xiaomi_sdm660-common" revision="udc" />
+  <project path="device/xiaomi/lavender" remote="coptan" name="device_xiaomi_lavender" revision="temp" />
+  <project path="device/xiaomi/sdm660-common" remote="EvoX-Devices" name="device_xiaomi_sdm660-common" revision="udc" />
 
   <project path="vendor/xiaomi/lavender" remote="coptan" name="vendor_xiaomi_lavender" revision="udc" />
-  <project path="vendor/xiaomi/sdm660-common" remote="coptan" name="vendor_xiaomi_sdm660-common" revision="udc" />
+  <project path="vendor/xiaomi/sdm660-common" remote="EvoX-Devices" name="vendor_xiaomi_sdm660-common" revision="udc" />
 
   <project path="kernel/xiaomi/sdm660" remote="coptan" name="android_kernel_xiaomi_sdm660" revision="udc" />
-
-  <remove-project name="device_qcom_sepolicy-legacy-um" />
-  <project path="device/qcom/sepolicy-legacy-um" remote="github" name="EvoX-lavender/device_qcom_sepolicy-legacy-um" revision="tiramisu" />
-
-  <project path="vendor/bcr" remote="github" name="kenway214/vendor_bcr" revision="main" />
-
 </manifest>
