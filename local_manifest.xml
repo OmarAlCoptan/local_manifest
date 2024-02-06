@@ -12,5 +12,5 @@
   <project path="vendor/xiaomi/lavender" remote="coptan" name="vendor_xiaomi_lavender" revision="udc" />
   <project path="vendor/xiaomi/sdm660-common" remote="EvoX-Devices" name="vendor_xiaomi_sdm660-common" revision="udc" />
 
-  <project path="kernel/xiaomi/sdm660" remote="coptan" name="android_kernel_xiaomi_sdm660" revision="udc" />
+  <project path="kernel/xiaomi/lavender" remote="coptan" name="android_kernel_xiaomi_sdm660" revision="udc" />
 </manifest>
