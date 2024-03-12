@@ -5,12 +5,21 @@
 <!-- <remote name="coptan" fetch="ssh://git@github.com/Coptan99" /> -->
 <!-- <remote name="EvoX" fetch="https://github.com/Evolution-X" /> -->
 <remote name="EvoX-Devices" fetch="https://github.com/Evolution-X-Devices" />
+<remote name="Sd685" fetch="https://github.com/Xiaomi-SD685-Devs" />
 
-  <project path="device/xiaomi/lavender" remote="coptan" name="device_xiaomi_lavender" revision="udc" />
-  <project path="device/xiaomi/sdm660-common" remote="EvoX-Devices" name="device_xiaomi_sdm660-common" revision="udc" />
+  <project path="device/xiaomi/topaz" remote="coptan" name="device_xiaomi_topaz" revision="udc" />
+  <project path="vendor/xiaomi/topaz" remote="coptan" name="vendor_xiaomi_topaz" revision="udc" />
+  <project path="device/xiaomi/topaz-kernel" remote="Sd685" name="device_xiaomi_topaz-kernel" revision="lineage-21" />
 
-  <project path="vendor/xiaomi/lavender" remote="coptan" name="vendor_xiaomi_lavender" revision="udc" />
-  <project path="vendor/xiaomi/sdm660-common" remote="EvoX-Devices" name="vendor_xiaomi_sdm660-common" revision="udc" />
-
-  <project path="kernel/xiaomi/lavender" remote="coptan" name="android_kernel_xiaomi_sdm660" revision="udc" />
+  <project path="device/qcom/sepolicy_vndr/sm6225" name="Xiaomi-SD685-Devs/device_qcom_sepolicy_vndr" remote="github" revision="lineage-21.0-caf-sm6225" />
+  <linkfile src="os_pickup_audio-ar.mk" dest="hardware/qcom-caf/sm6225/audio/Android.mk" />
+  <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sm6225/Android.bp" />
+  <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/sm6225/Android.mk" />
+  <project path="hardware/qcom-caf/sm6225/audio/agm" name="Xiaomi-SD685-Devs/vendor_qcom_opensource_agm" remote="github" revision="lineage-21.0-caf-sm6225" />
+  <project path="hardware/qcom-caf/sm6225/audio/pal" name="Xiaomi-SD685-Devs/vendor_qcom_opensource_arpal" remote="github" revision="lineage-21.0-caf-sm6225" />
+  <project path="hardware/qcom-caf/sm6225/audio/primary-hal" name="Xiaomi-SD685-Devs/hardware_qcom_audio" remote="github" revision="lineage-21.0-caf-sm6225" />
+  <project path="hardware/qcom-caf/sm6225/data-ipa-cfg-mgr" name="Xiaomi-SD685-Devs/vendor_qcom_opensource_data-ipa-cfg-mgr" remote="github" revision="lineage-21.0-caf-sm6225" />
+  <project path="hardware/qcom-caf/sm6225/dataipa" name="Xiaomi-SD685-Devs/vendor_qcom_opensource_dataipa" remote="github" revision="lineage-21.0-caf-sm6225" />
+  <project path="hardware/qcom-caf/sm6225/display" name="Xiaomi-SD685-Devs/hardware_qcom_display" remote="github" revision="lineage-21.0-caf-sm6225" />
+  <project path="hardware/qcom-caf/sm6225/media" name="Xiaomi-SD685-Devs/hardware_qcom_media" remote="github" revision="lineage-21.0-caf-sm6225" />
 </manifest>
