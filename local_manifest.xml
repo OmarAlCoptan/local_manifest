@@ -7,7 +7,7 @@
 <remote name="EvoX-Devices" fetch="https://github.com/Evolution-X-Devices" />
 <remote name="Sd685" fetch="https://github.com/Xiaomi-SD685-Devs" />
 
-  <project path="device/xiaomi/topaz" remote="coptan" name="device_xiaomi_topaz" revision="udc" />
+  <project path="device/xiaomi/topaz" remote="coptan" name="device_xiaomi_topaz" revision="los" />
   <project path="vendor/xiaomi/topaz" remote="coptan" name="vendor_xiaomi_topaz" revision="udc" />
   <project path="device/xiaomi/topaz-kernel" remote="Sd685" name="device_xiaomi_topaz-kernel" revision="lineage-21" />
 
